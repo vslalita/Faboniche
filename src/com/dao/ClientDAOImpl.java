@@ -12,19 +12,16 @@ public class ClientDAOImpl extends UserDAOImpl {
 		return null;
 	}
 
-	@Override
-	public boolean update(Model client) {
+	public boolean update(Client client) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
-	@Override
 	public boolean delete(Model client) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
-	@Override
 	public boolean create(Model client) {
 		// TODO Auto-generated method stub
 		return false;

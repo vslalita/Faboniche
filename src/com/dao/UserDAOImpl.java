@@ -7,22 +7,19 @@ import com.database.DatabaseConnection;
 import com.model.Model;
 import com.model.User;
 
-public class UserDAOImpl implements DAOInterface{
+public class UserDAOImpl {
 
-	@Override
 	public Model get(int id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	@Override
-	public boolean update(Model user) {
+	public boolean update(User user) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
-	@Override
-	public boolean delete(Model user) {
+	public boolean delete(User user) {
 		// TODO Auto-generated method stub
 		return false;
 	}
@@ -42,13 +39,6 @@ public class UserDAOImpl implements DAOInterface{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return false;
-	}
-
-	@Override
-	public boolean create(Model user) {
-		// TODO Auto-generated method stub
-        
 		return false;
 	}
 

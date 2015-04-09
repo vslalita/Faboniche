@@ -18,20 +18,18 @@ public class StylistDAOImpl extends UserDAOImpl {
 		return null;
 	}
 
-	@Override
-	public boolean update(Model stylist) {
+	public boolean update(Stylist stylist) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
-	@Override
-	public boolean delete(Model stylist) {
+	
+	public boolean delete(Stylist stylist) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
-	@Override
-	public boolean create(Model stylist) {
+	public boolean create(Stylist stylist) {
 		// TODO Auto-generated method stub
 		return false;
 	}
