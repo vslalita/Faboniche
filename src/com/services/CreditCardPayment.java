@@ -1,6 +1,6 @@
 package com.services;
 
-public class CreditCardPaymentService implements PaymentService{
+public class CreditCardPayment implements PaymentService{
 
 	public boolean acceptPayment() {
 		// TODO Auto-generated method stub

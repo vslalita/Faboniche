@@ -1,5 +1,5 @@
 package com.model;
 
-public class Client {
+public class Client implements Model{
 
 }

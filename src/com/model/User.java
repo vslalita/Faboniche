@@ -1,11 +1,13 @@
 package com.model;
 
-public class User {
+public class User implements Model{
 	
 	
 	private int id;
 	private String firstName;
 	private String lastName;
+	private String userName;
+	private String password;
 	private String address;
 	private String state;
 	private String city;
@@ -62,6 +64,18 @@ public class User {
 	}
 	public void setRole(String role) {
 		this.role = role;
+	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 }

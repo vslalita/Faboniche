@@ -2,7 +2,7 @@ package com.model;
 
 import java.util.Calendar;
 
-public class Appointment {
+public class Appointment implements Model{
 
 	private int id;
 	private int userId;

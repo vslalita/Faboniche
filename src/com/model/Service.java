@@ -1,6 +1,6 @@
 package com.model;
 
-public class Service {
+public class Service implements Model{
 
 	private int id;
 	private String serviceName;
